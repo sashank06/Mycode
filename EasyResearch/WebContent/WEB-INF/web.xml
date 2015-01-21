@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+ 
+		<display-name>EasyResearch</display-name>
+   		
+   		<welcome-file-list>
+   			<welcome-file>/EasyResearch/Home</welcome-file>
+  		</welcome-file-list>
+  
+  		<servlet>
+        	<servlet-name>Home</servlet-name>
+        	<servlet-class>controller.HomeCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+	  		<servlet-name>Home</servlet-name>
+	  		<url-pattern>/Home</url-pattern>
+  		</servlet-mapping>
+
+  		<servlet>
+        	<servlet-name>AuthorLogin</servlet-name>
+        	<servlet-class>controller.AuthorLoginCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>AuthorLogin</servlet-name>
+  			<url-pattern>/AuthorLogin</url-pattern>
+  		</servlet-mapping>
+  
+  		<servlet>
+  			<servlet-name>SignupAuthor</servlet-name>
+  			<servlet-class>controller.SignupAuthorCtr</servlet-class>
+  		</servlet>
+        <servlet-mapping>
+        	<servlet-name>SignupAuthor</servlet-name>
+  			<url-pattern>/SignupAuthor</url-pattern>
+  		</servlet-mapping>
+  		
+		<servlet>
+        	<servlet-name>ConferenceChair</servlet-name>
+        	<servlet-class>controller.ConferenceChairLoginCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>ConferenceChair</servlet-name>
+  			<url-pattern>/ConferenceChairLogin</url-pattern>
+  		</servlet-mapping>
+  		<servlet>
+        	<servlet-name>ResetPassword</servlet-name>
+        	<servlet-class>controller.ResetPasswordCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+	  		<servlet-name>ResetPassword</servlet-name>
+  			<url-pattern>/ResetPassword</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>Logout</servlet-name>
+        	<servlet-class>controller.LogoutCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>Logout</servlet-name>
+  			<url-pattern>/Logout</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>UploadPaper</servlet-name>
+        	<servlet-class>controller.UploadPaperCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>UploadPaper</servlet-name>
+  			<url-pattern>/UploadPaper</url-pattern>
+  		</servlet-mapping>
+  		
+   		<servlet>
+        	<servlet-name>EditProfile</servlet-name>
+        	<servlet-class>controller.EditProfileAuthorCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>EditProfile</servlet-name>
+  			<url-pattern>/EditProfile</url-pattern>
+  		</servlet-mapping>
+  		
+		<servlet>
+        	<servlet-name>ReviewerLogin</servlet-name>
+        	<servlet-class>controller.ReviewerLoginCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>ReviewerLogin</servlet-name>
+  			<url-pattern>/ReviewerLogin</url-pattern>
+  		</servlet-mapping>
+
+		<servlet>
+        	<servlet-name>SignupReviewer</servlet-name>
+        	<servlet-class>controller.SignupReviewerCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>SignupReviewer</servlet-name>
+  			<url-pattern>/SignupReviewer</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>InviteReviewers</servlet-name>
+        	<servlet-class>controller.InviteReviewersCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>InviteReviewers</servlet-name>
+  			<url-pattern>/InviteReviewers</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>Admin</servlet-name>
+        	<servlet-class>controller.AdminCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>Admin</servlet-name>
+  			<url-pattern>/AdminLogin</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>CreateConferenceChair</servlet-name>
+        	<servlet-class>controller.CreateConferenceChairCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>CreateConferenceChair</servlet-name>
+  			<url-pattern>/createconferencechair</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>ListofConferences</servlet-name>
+        	<servlet-class>controller.ListofConferencesCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>ListofConferences</servlet-name>
+  			<url-pattern>/ListofConferences</url-pattern>
+  		</servlet-mapping>
+  		
+   		<servlet>
+        	<servlet-name>AddContacts</servlet-name>
+        	<servlet-class>controller.AddContactsCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>AddContacts</servlet-name>
+  			<url-pattern>/AddContacts</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>CheckStatusConferenceChair</servlet-name>
+        	<servlet-class>controller.CheckStatusConferenceChairCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>CheckStatusConferenceChair</servlet-name>
+  			<url-pattern>/CheckStatusConferenceChair</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>CheckStatusAuthor</servlet-name>
+        	<servlet-class>controller.CheckStatusAuthorCtr</servlet-class>
+ 		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>CheckStatusAuthor</servlet-name>
+  			<url-pattern>/CheckStatusAuthor</url-pattern>
+  		</servlet-mapping>
+   
+   		<servlet>
+        	<servlet-name>CreateConference</servlet-name>
+        	<servlet-class>controller.CreateConferenceCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>CreateConference</servlet-name>
+  			<url-pattern>/createConference</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>FileDownload</servlet-name>
+        	<servlet-class>controller.FileDownloadCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>FileDownload</servlet-name>
+  			<url-pattern>/FileDownload</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>AssignReviewerPaper</servlet-name>
+        	<servlet-class>controller.ChairAssignPaperCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>AssignReviewerPaper</servlet-name>
+  			<url-pattern>/AssignReviewerPaper</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>ReviewerNotification</servlet-name>
+        	<servlet-class>controller.ReviewerNotificationsCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>ReviewerNotification</servlet-name>
+  			<url-pattern>/ReviewerNotification</url-pattern>
+  		</servlet-mapping>
+  
+    	<servlet>
+        	<servlet-name>ConferenceChairNotification</servlet-name>
+        	<servlet-class>controller.ConferenceChairNotificationCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>ConferenceChairNotification</servlet-name>
+  			<url-pattern>/ConferenceChairNotification</url-pattern>
+  		</servlet-mapping>
+  
+	    <servlet>
+    	    <servlet-name>ReviewerEvaluatePaper</servlet-name>
+        	<servlet-class>controller.EvaluatePaperCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>ReviewerEvaluatePaper</servlet-name>
+  			<url-pattern>/ReviewerEvaluatePaper</url-pattern>
+  		</servlet-mapping>
+  
+  		<servlet>
+        	<servlet-name>MakeDecision</servlet-name>
+        	<servlet-class>controller.MakeDecisionCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>MakeDecision</servlet-name>
+  			<url-pattern>/MakeDecision</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>ReviewerEvaluatePaperComments</servlet-name>
+        	<servlet-class>controller.EvaluatePaperCtr</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+  			<servlet-name>ReviewerEvaluatePaperComments</servlet-name>
+  			<url-pattern>/ReviewerEvaluatePaperComments</url-pattern>
+  		</servlet-mapping>
+    
+    <listener>
+		<listener-class>test.QuartzListener</listener-class>
+	</listener>
+</web-app>
