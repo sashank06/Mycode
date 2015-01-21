@@ -1,0 +1,6 @@
+project LinkedList is
+
+   for Main use ("LinkedList.adb");
+
+end LinkedList;
+

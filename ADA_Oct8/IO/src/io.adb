@@ -1,0 +1,33 @@
+with Gnat.IO;
+use Gnat.IO;
+procedure IO is
+   Num : Integer;
+   Char : Character;
+   Ch: Character;
+   Line : String(1..500);
+   Len: Integer;
+begin
+   Put("Enter a number: ");
+   Get(Num);
+   Get(Ch);
+   New_Line;
+   Put("The entered number is: ");
+   Put(Num);
+   New_Line;
+   Put("Enter a Character: ");
+   Get(Char);
+   New_Line;
+   Put("The entered character is: ");
+   Put(Char);
+   Get(Ch);
+   New_Line;
+   Put("Enter a String: ");
+   Get_Line(Line,Len);
+   Put("The entered string is: " & Line(1..Len));
+   New_Line;
+   Put("Length of the string is: ");
+   Put(Len);
+   New_Line;
+   Get(Ch);
+   null;
+end IO;

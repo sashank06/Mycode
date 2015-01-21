@@ -1,0 +1,65 @@
+V "GNAT Lib v2012"
+M P W=b
+A -gnatA
+P ZX
+R nnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U calculator%b		calculator.adb		0d5726dc NE OO SU
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.io%s		g-io.adb		g-io.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-ioexce.ads		20120510125752 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-unccon.ads		20120510125800 f9eb8f06
+D calculator.adb	20131002164002 d78c3aa7
+D gnat.ads		20120510125812 fd2ad2f1
+D g-io.ads		20120510125810 9f0d3ab2
+D interfac.ads		20120510125814 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D system.ads		20120510125846 6daf90c4
+D s-conca3.ads		20120510125822 762a026a
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+D text_io.ads		20120510125846 45d626c9
+X 7 a-textio.ads
+169U14*Skip_Line 9|19s15
+X 9 calculator.adb
+4U11*Calculator 4b11 30l5 30t15
+5e4 Operand{character} 14m14 14r14 15r20 17r17 17r34 20r12 27r56
+6i4 Val{integer} 10r11 21m22 22m22 22r27 23m22 23r27 24m22 24r27 25m22 25r27
+7i4 InputVal{integer} 18m11 18r11 21r27 22r33 23r33 24r33 25r33
+X 10 gnat.ads
+34K9*GNAT 9|2r6 3r5 10|37e9
+X 11 g-io.ads
+41K14*IO 9|2w11 3r10 11|91e12
+53U14*Get 9|18s7
+54U14*Get 9|14s10
+59U14*Put 9|10s7
+68U14*Put 9|12s7
+72U14*Put_Line 9|26s27 27s25
+77U14*New_Line 9|11s7
+X 32 text_io.ads
+24K9*Text_IO=24:29 9|1w6 19r7
+

@@ -1,0 +1,108 @@
+V "GNAT Lib v2012"
+M P AB W=b
+A -gnatA
+P SS ZX
+R nnnvnnnnnnnnnnnnnnvvnvnnnvnnnnnvnnvnnnnnnvnnvnnnnnnnnnnnnnvnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U linkedlist%b		linkedlist.adb		a7a8be93 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-charac.ads		20120510125748 2d3ec45b
+D a-chlat1.ads		20120510125748 2825df20
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-ioexce.ads		20120510125752 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-string.ads		20120510125756 90ac6797
+D a-strmap.ads		20120510125756 9cb836fb
+D a-strunb.ads		20120510125756 3f91d4c5
+D a-tags.ads		20120510125758 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-unccon.ads		20120510125800 f9eb8f06
+D interfac.ads		20120510125814 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D linkedlist.adb	20131002181622 e582b94b
+D system.ads		20120510125846 6daf90c4
+D s-atocou.ads		20120510125818 4a9c6cb4
+D s-atocou.adb		20120510125818 c864ec10
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-maccod.ads		20120510125826 0fbb7bce
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-stposu.ads		20120510125834 197be7e5
+D s-stratt.ads		20120510125834 aedef97e
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+D text_io.ads		20120510125846 45d626c9
+X 1 ada.ads
+16K9*Ada 19e8 16|3r6 4r5 5r6 6r5
+X 8 a-string.ads
+16K13*Strings 35e16 16|3r10 4r9
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 16|3w18 4r17
+79R9*Unbounded_String 473e14 16|13r14 20r14 28r14 37r23 38r19 39r18
+94V13*To_Unbounded_String{79R9} 16|44s24 46s24 48s24 51s20 55s24 57s24 59s24
+. 62s20 65s20
+100V13*To_String{string} 16|69s13 71s13 73s13 75s13 77s13 79s13 81s13 83s13
+. 85s13
+X 12 a-textio.ads
+49K13*Text_IO 471e16 16|5w10 6r9
+166U14*New_Line 16|43s4 70s4 72s4 74s4 76s4 78s4 80s4 82s4 84s4
+206U14*Get 16|86s4
+263U14*Put_Line 16|42s4 68s4 69s4 71s4 73s4 75s4 77s4 79s4 81s4 83s4 85s4
+X 16 linkedlist.adb
+7U11*LinkedList 7b11 87l5 87t15
+9e4 Ch{character} 86m8 86r8
+10R9 Instuctors 11r34 12c9 15e14 45r12 47r12 49r12 56r12 58r12 60r12
+11P9 Poi_Instuctors(10R9) 14r14 22r21 33r8
+13r7 Name{10|79R9} 73r45 75r50 77r55 81r50 83r55 85r60
+14p7 Next{11P9} 75r45 77r45 77r50 83r50 85r50 85r55
+17R9 Students 18r33 19c9 23e14 52r12 63r12
+18P9 Poi_Students(17R9) 21r14 30r19 34r8
+20r7 Name{10|79R9} 71r34 79r39
+21p7 Next{18P9} 79r34 81r34 83r34 85r34
+22p7 Instuctors{11P9} 73r34 75r34 77r34 81r39 83r39 85r39
+25R9 Courses 26r31 27c9 31e14 66r12
+26P9 Poi_Courses(25R9) 29r14 35r8
+28r7 Name{10|79R9} 69r25
+29p7 Next{26P9}
+30p7 Students{18P9} 71r25 73r25 75r25 77r25 79r25 81r25 83r25 85r25
+33p4 I{11P9} 45m4 45r42 47m4 47r42 49m4 49r42 52r38 56m4 56r42 58m4 58r42
+. 60m4 60r42 63r38
+34p4 S{18P9} 52m4 52r36 63m4 63r36 66r38
+35p4 C{26P9} 66m4 66r35 69r23 71r23 73r23 75r23 77r23 79r23 81r23 83r23 85r23
+37r4 Intstructor_Name{10|79R9} 44m4 45r24 46m4 47r24 48m4 49r24 55m4 56r24
+. 57m4 58r24 59m4 60r24
+38r4 Student_Name{10|79R9} 51m4 52r22 62m4 63r22
+39r4 Courses_Name{10|79R9} 65m4 66r21
+X 40 text_io.ads
+24K9*Text_IO=24:29 16|1w6 2r5
+
